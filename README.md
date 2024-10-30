@@ -18,7 +18,7 @@ cargo new project_name
 cd project_name 
 ```
 
-# Run the Project \
+# Run the Project 
 ```
 cargo run
 ```
