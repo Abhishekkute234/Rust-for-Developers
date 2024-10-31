@@ -40,3 +40,30 @@ rustc filename.rs
 ```
 cargo help
 ```
+
+# Rust Variables are imutable by default to make them mutable we use mut key work ,also the new()denotes the empty string.Here the {} is pass as an argument
+
+```
+    let mut guess: String =String :: new();
+        println!("You guessed: {}", guess);// here the {} is pass as an argument
+
+```
+
+# To built the librarie in work
+
+```
+cargo build
+
+```
+
+# this is the library use to genearte random numbers
+
+```
+rand = "0.8.3"
+```
+
+# To generate the random number between 1 and 101
+
+```
+    let secret_number=rand:: thread_rug().gen_range(low:1, high:101);
+```
