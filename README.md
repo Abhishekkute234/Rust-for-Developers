@@ -35,11 +35,7 @@ rustc filename.rs
 ./filename
 ```
 
-# When you run the cargo run command out of the src folder, it will automatically compile and run the main.rs file.
-
-# In Cargo.toml file there are the dependences , name and the version of the cargo
-
-# Go to the the following command to chech the other commands in the cargo
+# When you run the cargo run command out of the src folder, it will automatically compile and run the main.rs file.In Cargo.toml file there are the dependences , name and the version of the cargo .Go to the the following command to chech the other commands in the cargo
 
 ```
 cargo help
